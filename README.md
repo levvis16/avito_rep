@@ -9,12 +9,11 @@
 
 ## Установка
 
-```bash
-git clone <https://github.com/levvis16/avito_rep>
-cd qa_avito_internship
+```powershell
+git clone https://github.com/levvis16/avito_rep
 
 python -m venv venv
-source venv/bin/activate      
 venv\Scripts\activate         
 
 pip install -r requirements.txt
+pytest -v
