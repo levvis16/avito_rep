@@ -17,3 +17,13 @@ venv\Scripts\activate
 
 pip install -r requirements.txt
 pytest -v
+```
+## Настройка линтера и форматтера для тестового кода
+
+```powershell
+pylint *.py utils/            
+black .                       
+isort . 
+```
+
+# Задание 1 лежит в файле TASK_1.md
