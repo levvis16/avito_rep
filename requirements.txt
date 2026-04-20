@@ -1,0 +1,6 @@
+requests
+pytest
+allure-pytest
+pylint
+black
+isort

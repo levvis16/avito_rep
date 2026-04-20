@@ -1,0 +1,11 @@
+BASE_URL = "https://qa-internship.avito.com"
+API_V1 = "/api/1"
+CREATE_ITEM = f"{API_V1}/item"
+GET_ITEM = f"{API_V1}/item/{{}}"
+GET_ITEMS_BY_SELLER = f"{API_V1}/{{}}/item"
+GET_STATISTIC = f"{API_V1}/statistic/{{}}"
+API_V2 = "/api/2"
+DELETE_ITEM_V2 = f"{API_V2}/item/{{}}"
+GET_STATISTIC_V2 = f"{API_V2}/statistic/{{}}"
+SELLER_ID_MIN = 111111
+SELLER_ID_MAX = 999999
