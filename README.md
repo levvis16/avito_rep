@@ -18,6 +18,9 @@ venv\Scripts\activate
 pip install -r requirements.txt
 pytest -v
 ```
+
+## Alure лежит в allure-report
+
 ## Настройка линтера и форматтера для тестового кода
 
 ```powershell
